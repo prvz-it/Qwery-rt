@@ -1,0 +1,98 @@
+#steady {
+    margin-top: 96px;
+}
+
+.steady-main {
+    height: 820px;
+    background: url(../../assets/steady.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.steady-text {
+    width: 924px;
+    text-align: center;
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%, -32%);
+}
+
+.steady-text h5 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: #FBD784;
+}
+
+.steady-text h2 {
+    margin: 13px 0px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+.steady-text p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 32px;
+    color: #FFF;
+    margin-bottom: 24px;
+}
+
+.steady-text a {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #FBD784;
+}
+
+@media (max-width: 950px) {
+    .steady-text {
+        width: 510px;
+        top: 66%;
+    }
+
+    .steady-text h2 {
+        font-size: 40px;
+    }
+
+    .steady-text p {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+}
+
+@media (min-width: 280px) and (max-width: 575px) {
+    .steady-text {
+        width: 280px;
+        top: 60%;
+    }
+
+    .steady-text h5 {
+        font-size: 14px;
+    }
+
+    .steady-text h2 {
+        font-size: 26px;
+    }
+
+    .steady-text p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .steady-text a {
+        font-size: 14px;
+    }
+}

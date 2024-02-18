@@ -1,0 +1,75 @@
+#culture {
+    margin-top: 96px;
+}
+
+.cultureLeft {
+    width: 100%;
+}
+
+.cultureLeft h5 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: #FBD784;
+}
+
+.cultureLeft h2 {
+    margin: 20px 0px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 54px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+.cultureLeft p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 32px;
+    color: #FFF;
+    margin-bottom: 62px;
+}
+
+.cultureLeft a {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #FBD784;
+}
+
+.cultureRight img {
+    width: 100%;
+}
+
+@media (max-width: 950px){
+    .cultureLeft {
+        margin-bottom: 24px;
+    }
+}
+
+@media (min-width: 280px) and (max-width: 575px) {
+    .cultureLeft h5 {
+        font-size: 14px;
+        letter-spacing: 3px;
+    }
+
+    .cultureLeft h2 {
+        margin: 14px 0px;
+        font-size: 36px;
+    }
+
+    .cultureLeft p {
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 36px;
+    }
+
+    .cultureLeft a {
+        font-size: 14px;
+    }
+}
