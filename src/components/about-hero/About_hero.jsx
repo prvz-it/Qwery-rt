@@ -1,3 +1,4 @@
+import { Col, Container, Row } from 'react-bootstrap';
 import './About_hero.css';
 
 const About_hero = () => {

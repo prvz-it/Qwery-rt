@@ -1,10 +1,10 @@
-import React from 'react'
-import Hero from '../components/hero/Hero'
+import React from 'react';
+import About_hero from '../components/about-hero/About_hero';
 
 const About_us = () => {
   return (
     <>
-      <Hero/>
+      <About_hero/>
     </>
   )
 }
