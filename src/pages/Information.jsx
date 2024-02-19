@@ -1,5 +1,5 @@
-import React from 'react'
-import About_hero from '../components/about-hero/About_hero'
+import React from 'react';
+import About_hero from '../components/about-hero/About_hero';
 
 const Information = () => {
   return (
