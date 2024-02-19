@@ -1,0 +1,73 @@
+#hero {
+    height: 100vh;
+    background: url(../../assets/About_us\ hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    width: 610px;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+}
+
+.hero-text p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    color: #FFC178;
+    margin-bottom: 36px;
+}
+
+.hero-text h1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 84px;
+    font-weight: 900;
+    text-transform: capitalize;
+    line-height: 80px;
+    color: #FFF;
+}
+
+.hero-text span {
+    font-size: 62px;
+    font-weight: 500;
+    font-style: italic;
+    color: #ffffffcc;
+}
+
+@media (max-width: 950px) {
+    .hero-text {
+        width: 546px;
+        left: 5%;
+    }
+
+    .hero-text span {
+        font-size: 52px;
+    }
+}
+
+@media (min-width: 280px) and (max-width: 575px) {
+    .hero-text {
+        width: 284px;
+    }
+
+    .hero-text p {
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+
+    .hero-text h1 {
+        font-size: 42px;
+        line-height: 48px;
+    }
+
+    .hero-text span {
+        font-size: 30px;
+    }
+}
