@@ -1,4 +1,4 @@
-#hero {
+#about_hero {
     height: 100vh;
     background: url(../../assets/About_usHero.jpg);
     background-position: center;
@@ -7,7 +7,7 @@
     position: relative;
 }
 
-.hero-text {
+.about_hero-text {
     width: 610px;
     position: absolute;
     top: 50%;
@@ -15,7 +15,7 @@
     transform: translateY(-50%);
 }
 
-.hero-text p {
+.about_hero-text p {
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -25,7 +25,7 @@
     margin-bottom: 36px;
 }
 
-.hero-text h1 {
+.about_hero-text h1 {
     font-family: "Open Sans", sans-serif;
     font-size: 84px;
     font-weight: 900;
@@ -34,7 +34,7 @@
     color: #FFF;
 }
 
-.hero-text span {
+.about_hero-text span {
     font-size: 62px;
     font-weight: 500;
     font-style: italic;
@@ -42,32 +42,32 @@
 }
 
 @media (max-width: 950px) {
-    .hero-text {
+    .about_hero-text {
         width: 546px;
         left: 5%;
     }
 
-    .hero-text span {
+    .about_hero-text span {
         font-size: 52px;
     }
 }
 
 @media (min-width: 280px) and (max-width: 575px) {
-    .hero-text {
+    .about_hero-text {
         width: 284px;
     }
 
-    .hero-text p {
+    .about_hero-text p {
         font-size: 14px;
         letter-spacing: 2px;
     }
 
-    .hero-text h1 {
+    .about_hero-text h1 {
         font-size: 42px;
         line-height: 48px;
     }
 
-    .hero-text span {
+    .about_hero-text span {
         font-size: 30px;
     }
 }

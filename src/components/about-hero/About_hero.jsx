@@ -4,11 +4,11 @@ import './About_hero.css';
 const About_hero = () => {
   return (
     <>
-    <section id="hero">
+    <section id="about_hero">
       <Container>
         <Row>
           <Col lg={12}>
-            <div className="hero-text">
+            <div className="about_hero-text">
               <p>explore the Nature Beauty</p>
               <h1>Discover <span>Wonderful Indonesia</span></h1>
             </div>
